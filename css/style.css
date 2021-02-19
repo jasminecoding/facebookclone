@@ -40,8 +40,13 @@ body > header::after {
 }
 
 body > header .container {
-  height: 42px;
-  line-height: 42px;
+    height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+    background-color: #4267B2;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 body > header .container::after {
